@@ -1,7 +1,81 @@
 // Map of flag emojis to their corresponding image URLs
 const flagMap = { 
+  "🇦🇨": chrome.runtime.getURL("flags/ac.png"),
+  "🇦🇩": chrome.runtime.getURL("flags/ad.png"),
+  "🇦🇪": chrome.runtime.getURL("flags/ae.png"),
+  "🇦🇫": chrome.runtime.getURL("flags/af.png"),
+  "🇦🇬": chrome.runtime.getURL("flags/ag.png"),
+  "🇦🇮": chrome.runtime.getURL("flags/ai.png"),
+  "🇦🇱": chrome.runtime.getURL("flags/al.png"),
+  "🇦🇲": chrome.runtime.getURL("flags/am.png"),
+  "🇦🇴": chrome.runtime.getURL("flags/ao.png"),
+  "🇦🇶": chrome.runtime.getURL("flags/aq.png"),
+  "🇦🇷": chrome.runtime.getURL("flags/ar.png"),
+  "🇦🇸": chrome.runtime.getURL("flags/as.png"),
+  "🇦🇹": chrome.runtime.getURL("flags/at.png"),
+  "🇦🇺": chrome.runtime.getURL("flags/au.png"),
+  "🇦🇼": chrome.runtime.getURL("flags/aw.png"),
+  "🇦🇽": chrome.runtime.getURL("flags/ax.png"),
+  "🇦🇿": chrome.runtime.getURL("flags/az.png"),
+
+  "🇧🇦": chrome.runtime.getURL("flags/ba.png"),
+  "🇧🇧": chrome.runtime.getURL("flags/bb.png"),
+  "🇧🇩": chrome.runtime.getURL("flags/bd.png"),
+  "🇧🇪": chrome.runtime.getURL("flags/be.png"),
+  "🇧🇫": chrome.runtime.getURL("flags/bf.png"),
+  "🇧🇬": chrome.runtime.getURL("flags/bg.png"),
+  "🇧🇭": chrome.runtime.getURL("flags/bh.png"),
+  "🇧🇮": chrome.runtime.getURL("flags/bi.png"),
+  "🇧🇯": chrome.runtime.getURL("flags/bj.png"),
+  "🇧🇱": chrome.runtime.getURL("flags/bl.png"),
+  "🇧🇲": chrome.runtime.getURL("flags/bm.png"),
+  "🇧🇳": chrome.runtime.getURL("flags/bn.png"),
+  "🇧🇴": chrome.runtime.getURL("flags/bo.png"),
+  "🇧🇶": chrome.runtime.getURL("flags/bq.png"),
+  "🇧🇷": chrome.runtime.getURL("flags/br.png"),
+  "🇧🇸": chrome.runtime.getURL("flags/bs.png"),
+  "🇧🇹": chrome.runtime.getURL("flags/bt.png"),
+  "🇧🇻": chrome.runtime.getURL("flags/bv.png"),
+  "🇧🇼": chrome.runtime.getURL("flags/bw.png"),
+  "🇧🇾": chrome.runtime.getURL("flags/by.png"),
+  "🇧🇿": chrome.runtime.getURL("flags/bz.png"),
+
+  "🇨🇦": chrome.runtime.getURL("flags/ca.png"),
+  "🇨🇨": chrome.runtime.getURL("flags/cc.png"),
+  "🇨🇩": chrome.runtime.getURL("flags/cd.png"),
+  "🇨🇫": chrome.runtime.getURL("flags/cf.png"),
+  "🇨🇬": chrome.runtime.getURL("flags/cg.png"),
+  "🇨🇭": chrome.runtime.getURL("flags/ch.png"),
+  "🇨🇮": chrome.runtime.getURL("flags/ci.png"),
+  "🇨🇰": chrome.runtime.getURL("flags/ck.png"),
+  "🇨🇱": chrome.runtime.getURL("flags/cl.png"),
+  "🇨🇲": chrome.runtime.getURL("flags/cm.png"),
+  "🇨🇳": chrome.runtime.getURL("flags/cn.png"),
+  "🇨🇴": chrome.runtime.getURL("flags/co.png"),
+  "🇨🇵": chrome.runtime.getURL("flags/cp.png"),
+  "🇨🇷": chrome.runtime.getURL("flags/cr.png"),
+  "🇨🇺": chrome.runtime.getURL("flags/cu.png"),
+  "🇨🇻": chrome.runtime.getURL("flags/cv.png"),
+  "🇨🇼": chrome.runtime.getURL("flags/cw.png"),
+  "🇨🇽": chrome.runtime.getURL("flags/cx.png"),
+  "🇨🇾": chrome.runtime.getURL("flags/cy.png"),
+  "🇨🇿": chrome.runtime.getURL("flags/cz.png"),
+
+  "🇩🇪": chrome.runtime.getURL("flags/de.png"),
+  "🇩🇬": chrome.runtime.getURL("flags/dg.png"),
+  "🇩🇯": chrome.runtime.getURL("flags/dj.png"),
+  "🇩🇰": chrome.runtime.getURL("flags/dk.png"),
+  "🇩🇲": chrome.runtime.getURL("flags/dm.png"),
+  "🇩🇴": chrome.runtime.getURL("flags/do.png"),
+  "🇩🇿": chrome.runtime.getURL("flags/dz.png"),
+
   "🇺🇸": chrome.runtime.getURL("flags/us.png"),
-  "🇬🇧": chrome.runtime.getURL("flags/gb.png")
+  "🇬🇧": chrome.runtime.getURL("flags/gb.png"),
+  "🇫🇷": chrome.runtime.getURL("flags/fr.png"),
+  "🇮🇪": chrome.runtime.getURL("flags/ie.png"),
+  "🇪🇺": chrome.runtime.getURL("flags/eu.png"),
+  "🇺🇦": chrome.runtime.getURL("flags/ua.png"),
+  "🇪🇸": chrome.runtime.getURL("flags/es.png")
 };
 
 // Function to replace flag emojis with images
@@ -43,8 +117,8 @@ function replaceFlagEmojis() {
         const img = document.createElement("img");
         img.src = url;
         img.alt = emoji;
-        img.style.width = "1.2rem";
-        img.style.height = "1.2rem";
+        img.style.width = "2rem";
+        img.style.height = "2rem";
         img.style.verticalAlign = "middle";
         span.appendChild(img);
 
