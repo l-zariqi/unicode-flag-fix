@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Flag Emoji Support",
+  "name": "Unicode Flag Fix",
   "version": "1.0",
-  "description": "Adds support for flag emojis on web pages.",
+  "description": "Enables proper display of Unicode flags using the Twemoji set.",
   "permissions": ["activeTab"],
   "host_permissions": ["<all_urls>"],
   "content_scripts": [
