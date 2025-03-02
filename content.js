@@ -24,7 +24,7 @@ function replaceFlagEmojis() {
       folder: 'svg',
       ext: '.svg',
       className: 'twemoji',
-      size: '72x72', // Adjust size as needed
+      size: '72x72',
     });
 
     // Replace the original node with the new span
