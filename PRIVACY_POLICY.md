@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-Thank you for using **Unicode Flag Fix**. Your privacy is important. This privacy policy explains what data we collect (if any) and how it's handled.
+Thank you for using **Unicode Flag Fix**. This privacy policy explains what data is collected (if any) and how it's handled.
 
 ## 2. Information We Collect
 
