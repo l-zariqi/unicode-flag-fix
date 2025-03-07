@@ -3,7 +3,7 @@
   "name": "Unicode Flag Fix",
   "version": "1.0",
   "description": "Enables proper display of Unicode flags using the Twemoji set.",
-  "permissions": ["activeTab"],
+  "permissions": [],
   "host_permissions": ["<all_urls>"],
   "content_scripts": [
     {
@@ -15,11 +15,5 @@
   "icons": {
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-  },
-  "web_accessible_resources": [
-    {
-      "resources": ["flags/*.png"],
-      "matches": ["<all_urls>"]
-    }
-  ]
+  }
 }
