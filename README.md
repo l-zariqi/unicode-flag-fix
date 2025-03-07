@@ -2,7 +2,6 @@
 
 A browser extension that enables proper display of Unicode flags using the [Twemoji](https://github.com/jdecked/twemoji) set.
 
-
 ## Features  
 
 - Replaces missing country and world flags with Twemoji equivalents
