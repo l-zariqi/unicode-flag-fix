@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-Thank you for using **Unicode Flag Fix**. This privacy policy explains what data is collected (if any) and how it's handled.
+This privacy policy explains what data is collected and how it's handled.
 
 ## 2. Information We Collect
 
