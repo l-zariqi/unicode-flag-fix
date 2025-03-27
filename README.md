@@ -9,5 +9,4 @@ A browser extension that enables proper display of Unicode flags using the [Twem
 
 ## Installation
 
-- Download source files from [here](https://github.com/l-zariqi/unicode-flag-fix/archive/refs/heads/main.zip)
-- Enable developer mode in browser extension settings and "Load unpacked"
+- Download the extension from the Chrome Web Store [here](https://chromewebstore.google.com/detail/unicode-flag-fix/dbkajadcafcbfampodiaabgpihadojno)
