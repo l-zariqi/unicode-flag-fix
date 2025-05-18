@@ -5,7 +5,7 @@ A browser extension that enables proper display of Unicode flags using the [Twem
 ## Features  
 
 - Replaces missing country and world flags with Twemoji equivalents
-- Supports Twemoji 15.1.0 for up-to-date emoji rendering
+- Supports Twemoji 16.0.1 for up-to-date emoji rendering
 
 ## Installation
 
