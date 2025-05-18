@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Unicode Flag Fix",
-  "version": "1.0",
-  "description": "Enables proper display of Unicode flags using the Twemoji set.",
+  "version": "1.1",
+  "description": "",
   "permissions": [],
   "host_permissions": ["<all_urls>"],
   "content_scripts": [
