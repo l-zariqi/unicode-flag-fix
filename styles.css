@@ -1,6 +1,19 @@
 .twemoji {
-    width: 1em;
-    height: 1em;
-    vertical-align: middle;
-    margin: auto;
-  }
+  display: inline;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  filter: inherit;
+}
+
+.twemoji-processed {
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+}
